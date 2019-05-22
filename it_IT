@@ -1,0 +1,304 @@
+# Cambia i nomi degli effetti tramite la lingua anziché lo shader stesso
+# Come cambiare nomi e commenti:
+# option.EffectName = Nuovo nome dell'effetto
+# option.EffectName.comment = Il tuo commento.
+#
+# Cambia i nomi delle schermate tramite la lingua anziché le proprietà
+# Come cambiare i nomi delle schermate e dare loro dei commenti:
+# screen.ScreenName = Nuovo nome dello schermo
+# screen.ScreenName.comment = Il tuo commento
+#
+# Linee di suggerimenti che terminano con "!" vengono automaticamente visualizzati in rosso.
+# esempio: option.SHADOW_FILTER.comment = Smussa le ombre. Colpo di prestazioni molto piccolo !.
+# Tradotto in lingua italiana da Peppe73 http://pcdoktor.altervista.org/minecraft/
+
+#composite.fsh
+option.sunPathRotation=Angolazione Sole/Luna
+option.sunPathRotation.comment=Regola la visualizzazione angolare del sole e della luna.
+value.sunPathRotation.0.0f=Predefinito
+value.sunPathRotation.-40.0f=Alternativa
+
+option.EmissiveLightStrength=Forza illuminazione
+option.EmissiveLightStrength.comment=Forza l'illuminazione emissiva delle torce ho altre fonti di luce nei blocchi.
+
+option.Sunlightamount=Quantità di luce solare
+option.Sunlightamount.comment=10,50,200
+
+option.Shadow_Filter=Filtro Ombre
+option.Shadow_Filter.comment=Smussa i bordi nelle ombre. §4Impatto sulle prestazioni molto basso.
+
+option.ColoredShadows=Ombre colorate
+option.ColoredShadows.comment=Attiva/disattiva le ombre colorate quando passa attraverso il vetro colorato. Può causare alcuni problemi visivi.
+
+option.Clouds=Nuvole
+option.Clouds.comment=Attiva/disattiva le nuvole. Le nuvole volumetriche corrono più velocemente delle nuvole 2D in termini di prestazioni.
+value.Clouds.0=Spento
+value.Clouds.1=2D
+value.Clouds.2=Volumetrico
+option.cloudsIT=Vol. qualita' nuvole
+option.cloudreflIT=Vol. qualita' riflesso delle nuvole
+option.Cloud_reflection=Nuvole riflesse
+option.Cloud_reflection.comment=Attiva/disattiva i riflessi delle nuvole. §4Impatto sulla performance media.
+option.cloud_height=Altezza della nuvola
+option.cloud_height.comment=Regola l'altezza delle nuvole.
+
+option.IceGlassReflections=Riflesso su Ghiaccio e Vetro.
+option.IceGlassReflections.comment=Attiva i riflessi del ghiaccio e delle vetrate.
+
+option.RainReflections=Riflessi di pioggia
+option.RainReflections.comment=Attiva/disattiva i riflessi pioggia/umidità mentre piove.
+option.BiomeCheck=Controllo dei biomi
+option.BiomeCheck.comment=Controlla se il bioma in cui ti trovi effettivamente supporta il tempo piovoso per i riflessi. Disabilitare per avere riflessi di pioggia/umidità in ogni bioma. L'aggiornamento di optifine potrebbe risolvere i problemi con riflessioni mancanti con questo in poi.
+option.rainNoise=Rumore della pioggia
+option.rainNoise.comment=Regola la quantità di rumore per i riflessi della pioggia, valori più alti significano meno rumore.
+
+option.Moonshading=Shader Luna
+option.Moonshading.comment=Attiva/disattiva la luna disegnata da shaderpack. Se disabilitato, attiva la luna predefinita in: impostazioni video-> dettagli-> Sole & Luna: attivo
+
+option.defskybox=Predefinito Skybox/Stelle
+
+option.customStars=Shader Stelle
+option.customStars.comment=Toglie le stlle.
+
+option.shadowMapResolution=Risoluzione delle ombre
+option.shadowMapResolution.comment=Regola la risoluzione delle ombre.
+value.shadowMapResolution.512=Molto basso
+value.shadowMapResolution.1024=Basso
+value.shadowMapResolution.2048=Medio
+value.shadowMapResolution.3072=Alto
+value.shadowMapResolution.4096=Molto alto
+value.shadowMapResolution.8192=Estrema
+
+option.shadowDistance=Distanza ombre
+option.shadowDistance.comment=Cambia la visualizzazione della distanza delle ombre.
+value.shadowDistance.60.0=Molto vicine
+value.shadowDistance.90.0=Vicine
+value.shadowDistance.120.0=Lontane
+value.shadowDistance.150.0=Molto lontane
+value.shadowDistance.180.0=Piu' lontane
+value.shadowDistance.210.0=Lontanissime
+
+option.Dynamic_Handlight=Luce dinamica della mano
+option.Dynamic_Handlight.comment=Oggetti come torce emettono luce mentre li tengono in mano. §4Nessun impatto sulle prestazioni.
+
+option.Godrays=Raggi del sole
+option.Godrays.comment=Rende i raggi del sole piu brillanti. §4Basso impatto sulle prestazioni.
+
+Luce_Volumetrica
+option.Volumetric_Lighting=Luce volumetrica
+option.Volumetric_Lighting.comment=Causa alcuni bug in questo momento ed è piuttosto affamato di prestazioni. Disabilita Raggi del sole se abilitato.
+
+option.Celshading=Animazione cel-shaded
+option.Celshading.comment=Applica linee nere su tutto ciò che lo fa sembrare fumettistico, simile alle zone di confine. §4Impatto sulle prestazioni molto basso.
+option.Celborder=Celshading spigolo esterno
+option.Celborder.comment=Regola lo spessore del contorno del celshading
+option.Celradius=Celshading raggio di ricerca
+option.Celradius.comment=Regola il raggio di ricerca per il celshading. Valori più bassi significano meno raggio di ricerca, che potrebbe perdere alcuni bordi in linea, creando più di uno shader di contorno. Quale può sembrare freddo anche.
+
+option.SSDO=Aclusione Ambientale
+option.SSDO.comment=Rende l'illuminazione più realistica (SSDO). §4Impatto sulla performance media.
+option.ao_strength=Quantita' AO
+option.ao_strength.comment=Regola la quantità/forza dell'occlusione ambientale.
+
+option.Fog=Nebbia
+option.Fog.comment=Toglie la nebbia.
+option.wFogDensity=Densita nebbia nel mondo.
+option.wFogDensity.comment=Regola la densita della nebbia nel mondo
+value.wFogDensity.1.0=Molto vicino
+value.wFogDensity.50.0=Vicino
+value.wFogDensity.100.0=Predefinito
+value.wFogDensity.150.0=Lontano
+value.wFogDensity.200.0=Molto lontano
+
+option.Underwater_Fog=Nebbia sott'acqua
+option.Underwater_Fog.comment=Disabilita nebbia sott'acqua.
+option.uFogDensity=Densita nebbia sott'acqua
+option.uFogDensity.comment=Regola la nebbia sott'acqua.
+value.uFogDensity.20.0=Vicino
+value.uFogDensity.40.0=Predefinito
+value.uFogDensity.80.0=Lontano
+value.uFogDensity.160.0=Molto lontano
+
+option.Nether_Fog=Nebbia nel Nether
+option.Nether_Fog.comment=Togle la nebbia nel nether.
+option.nFogDensity=Densita' nebbia Nether.
+option.nFogDensity.comment=Regola la densita' della nebbia nel Nether.
+
+option.Whiteworld=Mondo bianco
+option.Whiteworld.comment=Rende il terreno bianco, utilizzato principalmente per il debug. Questa opzione è stata aggiunta perché è stata richiesta molto. Suppongo che sia abbastanza carino per gli screenshot.
+
+#composite.vsh
+option.Moonlight=Luce lunare
+option.Moonlight.comment=Regola la luce della luna.
+value.Moonlight.0.0=Molto scuro
+value.Moonlight.0.0015=Scuro
+value.Moonlight.0.003=Predefinito
+value.Moonlight.0.006=Luminosa
+value.Moonlight.0.009=Molto luminosa
+#----------------------------------------------------
+
+#final.fsh
+option.Rain_Drops=Goccie di pioggia
+option.Rain_Drops.comment=Abilita le gocce di pioggia sullo schermo durante la pioggia. §4Basso impatto sulle prestazioni.
+
+#gbuffers_entitites.fsh
+option.MobsFlashRed=Danni visivi
+option.MobsFlashRed.comment=Marca i mostri ed i Player con una luce visiva quando si colpiscono.
+#----------------------------------------------------
+
+#Godrays from composite.fsh
+#Variabili definite da final.fsh
+option.Godrays_Density=Densita' raggi solari
+option.Godrays_Density.comment=Cambia la quantità di raggi solari.
+value.Godrays_Density.0.575=Basso
+value.Godrays_Density.1.15=Predefinito
+value.Godrays_Density.2.3=Medio
+value.Godrays_Density.4.6=Alto
+value.Godrays_Density.9.2=Molto alto
+
+option.Lens_Flares=Riflesso lente
+option.Lens_Flares.comment=Simula il rilfesso della lenta. §4Bloom deve essere abilitato per i brillamenti dell'obiettivo. §4Basso impatto sulle prestazioni.
+option.Lens_Flares_Strength=Forza dei riflessi delle lenti
+option.Lens_Flares_Strength.comment=Regola la forza dei riflessi delle lenti.
+value.Lens_Flares_Strength.1.0=Debole
+value.Lens_Flares_Strength.4.0=Predefinito
+value.Lens_Flares_Strength.16.0=Forte
+value.Lens_Flares_Strength.32.0=Molto forte
+value.Lens_Flares_Strength.64.0=Piu' forte
+
+option.Bloom=Bloom
+option.Bloom.comment=Aggiunge un effetto luminoso ai blocchi emissivi. È anche usato per i bagliori del sole/luna. §4Impatto sulla performance media.
+option.bloom_strength=Forza Bloom
+option.bloom_strength.comment=Regola la forza del bloom. Valori più alti rendono l'immagine più morbida e più sfocata.
+value.bloom_strength.0.5=Basso
+value.bloom_strength.0.75=Predefinito
+value.bloom_strength.1.0=Medio
+value.bloom_strength.2.0=Alto
+
+option.Depth_of_Field=Profondità di campo
+option.Depth_of_Field.comment=Simula l'occhio concentrandosi sugli oggetti. §4Basso impatto sulle prestazioni
+option.DoF_Strength=Forza sfocatura
+option.DoF_Strength.comment=Cambia la forza dell'effetto sfocatura.
+value.DoF_Strength.60=Basso
+value.DoF_Strength.90=Predefinito
+value.DoF_Strength.120=Alto
+value.DoF_Strength.150=Molto Alto
+
+option.Distance_Blur=Distanza sfocatura
+option.Distance_Blur.comment=§4Richiede la profondità di campo per essere abilitata. Sostituisce invece l'effetto di messa a fuoco dell'occhio con la distanza.
+
+option.Dof_Distance_View=Sfocare la distanza
+option.Dof_Distance_View.comment=Regola la distanza di visualizzazione della sfocatura.
+value.Dof_Distance_View.128=Vicino
+value.Dof_Distance_View.256=Predefinito
+value.Dof_Distance_View.384=Lontano
+value.Dof_Distance_View.512=Molto lontano
+
+option.Motionblur=Sfocatura Movimento
+option.Motionblur.comment=Effetto offuscato vista/fotocamera durante il movimento. Non funziona con profondità di campo.
+
+option.MB_strength=Sfocatura
+option.MB_strength.comment=Regola l'effetto sfocato del movimento.
+value.MB_strength.0.008=Basso
+value.MB_strength.0.014=Predefinito
+value.MB_strength.0.020=Alto
+#----------------------------------------------------
+
+#gbuffers_terrain.fsh/vsh
+option.WaterParallax=Mappa parallasse dell'acqua
+option.WaterParallax.comment=Abilita o disabilita la mappatura della parallasse per l'acqua. §4Basso impatto sulle prestazioni
+
+option.waterheight=Altezza dell'acqua
+option.waterheight.comment=Regola l'altezza dell'acqua / forza parallasse.
+
+option.watertex=Struttura Acqua
+option.watertex.comment=Abilita o disabilita la struttura dell'acqua dalla tua risorsa. Si fonderà con il colore dell'acqua, quindi potrebbe non essere così visibile.
+
+option.waterCR=Acqua colore rosso
+option.waterCG=Acqua colore verde
+option.waterCB=Acqua colore blu
+
+option.nMap=RP Support
+option.nMap.comment=Abilitare il supporto di bump o parallasse per i pacchetti di risorse, il pacchetto di risorse deve supportarlo.
+value.nMap.0=Spento
+value.nMap.1=Bumpmapping
+value.nMap.2=Parallax
+
+option.POM_RES=Risoluzione RP
+option.POM_RES.comment=Aumentare la risoluzione oltre la risoluzione di rp lo rende più fluido.
+option.POM_DEPTH=Profondita' POM
+option.POM_DEPTH.comment=Regola la profondità della mappatura della parallasse, a valori alti potrebbe sembrare strano.
+option.POM_DIST=Distanza POM
+option.POM_DIST.comment=Regola la distanza di rendering della mappatura della parallasse.
+
+option.Waving_Leaves=Movimento foglie
+option.Waving_Leaves.comment=Abilita le foglie ondegianti dal vento
+
+option.Waving_Vines=Movimento Viti
+option.Waving_Vines.comment=Abilita le viti ondegianti dal vento
+
+option.Waving_Grass=Movimento Erba
+option.Waving_Grass.comment=Non include erba lata a causa di alcuni problemi con esso.
+
+option.Waving_Fire=Movimento fuoco
+option.Waving_Fire.comment=Abilita il movimento del fuoco
+
+option.Waving_Lava=Movimento lava
+option.Waving_Lava.comment=Abilita il movimento della lava
+
+option.Waving_Water=Movimento acqua
+option.Waving_Water.comment=Abilita il movimento dell'acqua
+
+option.waves_amplitude=Ampiezza delle onde
+option.waves_amplitude.comment=Adjust the water waves amplitude (altezza)
+
+option.Waving_Lilypads=Movimento Lilypad
+option.Waving_Lilypads.comment=Abilita il movimento del fiore
+
+option.Waving_Entities=Entità ondeggianti
+option.Waving_Entities.comment=Comprende: alberelli, piccoli fiori, grano, carote, patate e barbabietole.
+#----------------------------------------------------
+
+#gbuffers_weather.vsh
+option.WeatherAngle=Angolo del tempo alternativo
+option.WeatherAngle.comment=Attiva l'angolo del tempo alternativo.
+
+#Screens
+screen.BLOOM_SCREEN=Bloom
+screen.BLOOM_SCREEN.comment=Cambia le cose relative al Bloom.
+
+screen.COLORS_SCREEN=Colori
+screen.COLORS_SCREEN.comment=Cambia varie opzioni di colore, come la gamma o gli acquerelli.
+
+screen.DOF_SCREEN=Profondità di campo
+screen.DOF_SCREEN.comment=Cambia le cose relative alla profondità di campo.
+
+screen.MB_SCREEN=Motionblur
+screen.MB_SCREEN.comment=Cambia le coserelative al Motionblur.
+
+screen.SKY_SCREEN=Cielo & Illuminazione
+screen.SKY_SCREEN.comment=Contiene opzioni relative al cielo, come godrays, lens flare e nuvole.
+
+screen.SHADOWS_SCREEN=Ombre
+screen.SHADOWS_SCREEN.comment=Cambia le impostazioni relative all'ombra come la risoluzione e la distanza di visualizzazione.
+
+screen.FOG_SCREEN=Opzioni Nebbia
+screen.FOG_SCREEN.comment=Contiene tutte le opzioni relative alla nebbia.
+
+screen.NORMALMAP_SCREEN=Normal map
+screen.NORMALMAP_SCREEN.comment=Abilita il supporto di bump o parallasse se il resourcepack li supporta.
+
+screen.WAVING_SCREEN=Oggetti in movimento
+screen.WAVING_SCREEN.comment=Contiene erba, grano, foglie ecc.
+
+screen.EMISSIVE_SCREEN=Luce emissiva
+screen.EMISSIVE_SCREEN.comment=Regola il colore di illuminazione dei blocchi che emettono luce propria, come le torce.
+option.emissive_R=Rosso
+option.emissive_G=Verde
+option.emissive_B=Blu
+
+screen.REFLECTIONS_SCREEN=Riflessi
+screen.REFLECTIONS_SCREEN.comment=Attiva i vari riflessi e regola la loro qualità.
+
+screen.SHADING_SCREEN=Ombreggiatura
+screen.SHADING_SCREEN.comment=Regola vari effetti di ombreggiatura come l'occlusione ambientale o il celshading
